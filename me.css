@@ -1,0 +1,60 @@
+html{
+  background-color: #E6D6D6;
+}
+#bare {
+  display : flex;
+  justify-content: space-between;
+  margin-right :10px;
+}
+#firstsection {
+  height : 50px;
+  display : flex;
+  justify-content : space-between;
+  text-align : center; 
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to left, #D9C6A5);
+  z-index: 1000;
+  top: 0;
+  border-radius : 10px;
+  margin-left :-10px;
+}
+
+a{
+  text-decoration: none;
+  padding : 10px;
+  margin-top : 10px;
+  color : black; 
+  transition : 0.7s ease;
+}
+a:hover {
+  border-radius: 10px;
+  color: purple;
+  transform : scale(1.1);
+}
+
+#me-page {
+  background-color:#FFFFFF;
+  opacity:0.7;
+  width:300px;
+  height :200px;
+  padding: 20px;
+  margin-left :230px;
+  margin-top:30px;
+  border-radius:20px;
+  font-family :fantasy;
+}
+  #me-page h4{
+    text-align:center;
+  }
+  
+ #me-page p{
+   text-align: center;
+ }
+@media screen and (max-width:480px){
+  
+  #me-page{
+   margin-left:40px;
+   margin-top:250px;
+  }
+}

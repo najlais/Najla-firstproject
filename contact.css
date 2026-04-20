@@ -1,0 +1,65 @@
+html{
+  background : #E6D6D6;
+}
+h4{
+  margin-left:350px;
+  font-size: 15px;
+}
+#contact-box{
+  background-color : white;
+  opacity:0,7;
+  width:300px;
+  height:100px;
+  margin-top: 65px;
+  margin-left:250px;
+  border-radius:15px;
+}
+.contact-me{
+  direction: rtl;
+  text-align: center;
+  padding-top:10px;
+  
+}
+
+
+#bare {
+  display : flex;
+  justify-content: space-between;
+  margin-right :10px;
+}
+#firstsection {
+  height : 50px;
+  display : flex;
+  justify-content : space-between;
+  text-align : center; 
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to left, #F5EBE0, #E8D8C3);
+  z-index: 1000;
+  top: 0;
+  border-radius : 10px;
+  margin-left :-10px;
+}
+
+a{
+  text-decoration: none;
+  padding : 10px;
+  margin-top : 10px;
+  color : black; 
+  transition : 0.7s ease;
+}
+a:hover {
+  border-radius: 10px;
+  color: purple;
+  transform : scale(1.1);
+}
+
+@media screen and (max-width :480px){
+  h4{
+    margin-left: 170px;
+    margin-top:140px;
+  }
+  #contact-box{
+   margin-left:60px;
+  }
+}

@@ -1,0 +1,329 @@
+
+html{
+  height: 100%;
+  width: 100%;
+  background-color : white;
+}
+h2{
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left :10px;
+}
+
+#bare {
+  display : flex;
+  justify-content: space-between;
+  margin-right :10px;
+}
+#firstsection {
+  height : 50px;
+  display : flex;
+  justify-content : space-between;
+  text-align : center; 
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to left, #D9C6A5);
+  z-index: 1000;
+  top: 0;
+  border-radius : 10px;
+  margin-left :-10px;
+}
+
+a{
+  text-decoration: none;
+  padding : 10px;
+  margin-top : 10px;
+  color : black; 
+  transition : 0.7s ease;
+}
+a:hover {
+  border-radius: 10px;
+  color: purple;
+  transform : scale(1.1);
+}
+#slider{
+  width:500px;
+  height:250px;
+  margin-top:60px;
+ margin-left: 160px;
+  overflow:hidden;
+}
+
+#slides{
+  display:flex;
+  width:600px;
+  height:100%;
+  margin-left:10px;
+  align-items: center;
+  animation:slide 12s infinite;
+}
+
+#slides img{
+  width:200px;
+  height:250px;
+  flex:0 0 100%;
+ object-fit: cover;
+}
+#Mainsection{  
+    width: 100%;
+    height: 300px;
+    color: black;
+    background-color : white;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border : #EFE1E1 solid 1px;
+    margin-top :10px;
+}
+#myimg{
+  background-image: url("https://img.freepik.com/premium-vector/,faceless-business-woman-vector_844724-14350.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  position: absolute;   
+  top: 10px;        
+  right:100px;
+  z-index: 2;
+}
+#MainsectionFont{
+  font-size : 15px;
+  color : black;
+  top : 10px;  
+  margin-bottom : 5px;
+  padding : 10px 95px 15px 30px ;
+  text-align : center;
+}
+#Mainsection h3{
+    color:#C97C5D;
+}
+h5{
+text-decoration: underline;
+text-decoration-color : darkblue;
+}
+#contact{
+  background-color: #EFE1E1;
+  color : black;
+  border-radius : 10px;
+  transition :0.7s ease;
+}
+#contact:hover{
+    background-color:#a65f45;
+    transform: scale(1.1);
+}
+#aboutme2{
+  width: 100%;
+  height: 180px;
+  background-color : white;
+}
+#aboutme2 p{
+  direction:rtl;
+  margin-left:300px;
+  margin-right:30px;
+}
+#aboutme2 h4{
+  align-items:center;
+  padding-left: 390px;
+}
+#aboutme2img{
+  width:150px;
+  height:150px;
+  margin-top: -160px;
+  margin-left:100px;
+}
+#myskills{
+  width: 100%;
+  height : 250px;
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap; 
+  direction:rtl;
+  border: #EFE1E1 solid 1px;
+  border-radius : 10px;
+}
+#myskills h3{
+  font-size: 8px;
+}
+#myskills h4 {
+  display: flex;
+  justify-content: center;
+  padding-top:-60px;
+  padding-right:350px;
+}
+#allmyskills{
+  display: flex;
+  margin-top:-130px;
+  margin-right:110px;
+  margin-left:15px;
+  gap: 30px;      
+}
+#myskills1 ,#myskills2 ,#myskills3 ,#myskills4
+{
+  width :120px;
+  height :80px;
+  background-color : white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  border: #EFE1E1 solid 1px;
+  border-radius : 10px;
+  text-align: center;
+  margin-top:60px;
+ 
+ 
+  }
+#myskills1img ,#myskills2img ,#myskills3img, #myskills4img {
+  width :  50px;
+  height : 35px;
+  margin : 5px 10px;
+}
+
+footer{
+  margin-top : 10px;
+  width :100%;
+  height : 110px;
+  background-color : #EFE1E1;
+  font-size : 10px;
+  text-align : center;
+  border-radius:10px;
+}
+footer #icon{
+  direction:rtl;
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap; 
+  padding :10px 50px;
+  margin :10px 140px;
+}
+footer img {
+  width :15px;
+  height : 15px;
+}
+#emaili{
+  padding :25px;
+}
+#numi{
+  padding :25px;
+}
+#locationi{
+  padding :20px;
+}
+p {
+  margin-bottom:30px;;
+}
+
+@keyframes slide{
+
+  0%{transform:translateX(0);}
+  30%{transform:translateX(0);}
+
+  33%{transform:translateX(-100%);}
+  63%{transform:translateX(-100%);}
+
+  66%{transform:translateX(-200%);}
+  96%{transform:translateX(-200%);}
+
+  100%{transform:translateX(0);}
+}
+@media screen and (max-width:480px){
+
+  #slider{
+    width :200px;
+    max-width:420px;
+    height:150px;
+    margin-left:120px;
+  }
+  #slides{
+      width : 200px;
+      height :180px;
+      align-items: center;
+  }
+  #slides img{
+    height:150px;
+    width :150px;
+    border-radius:10px; 
+  }
+
+  #Mainsection{
+    height: 100%;
+    width:100%;
+  }
+  #myimg{
+  width:150px;
+  height : 150px;
+  margin-right:-100px;
+  }
+  #aboutme2{
+  height: 100%;
+  width: 100%;
+  text-align:center;
+ 
+  }
+  #aboutme2 h4{
+    padding-left :350px;
+   }
+  #aboutme2 p{
+    margin:10px;
+  }
+  #aboutme2img{
+    margin:auto;
+    display:block;
+  } 
+  #myskills{
+    height: 100%;
+    width: 100%;
+  }
+  #myskills h4{
+    padding-right:15px;
+  }
+  #allmyskills {
+  margin-top:-70px;
+  margin-right:10px;
+  margin-left: 15px;
+  margin-bottom:15px;
+}
+#myskills1 ,#myskills2 ,#myskills3 ,#myskills4{
+    width:70px;
+ 
+  }
+ 
+  footer{
+    width:100%;
+  }
+  footer h3{
+  width:150px;
+  font-weight: 80px;
+  padding-left :270px;
+  padding-top:20px;
+  }
+  #icon{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:90px;
+  flex-direction: row;
+  flex-wrap :wrap;
+  padding-right:40px;
+  margin-top:10px;
+  }
+  #emaili,
+  #numi,
+  #locationi{
+  display:flex;
+  flex-direction: row;
+  flex-wrap :wrap;
+  align-items:center;
+  gap:8px;
+  padding:-110px;
+  margin:-120px;
+  width:70px;
+  justify-content: center;
+  margin-top:-90px;
+  }
+  #emailiconimg,
+  #numiconimg,
+  #locationiconimg{
+  width:20px;
+  height:20px;
+  }
+  }

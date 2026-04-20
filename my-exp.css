@@ -1,0 +1,74 @@
+html {
+  background-color: #E6D6D6;
+}
+
+#my-exper h3{
+  font-size:15px;
+  text-align: center;
+}
+#my-exper img {
+  width :70px;
+  height :70px;
+  display: flex;
+  align-items: center;
+  margin-left:35px;
+  margin-top:15px;
+}
+#my-exper1, #my-exper2, #my-exper3{
+  background-color: white;
+  width: 140px;
+  margin:10px;
+  margin-left:100px;
+  display:inline-block;
+  border-radius: 15px;
+}
+#all-my-exper h4{
+  padding-left:350px;
+}
+#bare {
+  display : flex;
+  justify-content: space-between;
+  margin-right :10px;
+}
+#firstsection {
+  height : 50px;
+  display : flex;
+  justify-content : space-between;
+  text-align : center; 
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to left, #D9C6A5);
+  z-index: 1000;
+  top: 0;
+  border-radius : 10px;
+  margin-left :-10px;
+}
+
+a{
+  text-decoration: none;
+  padding : 10px;
+  margin-top : 10px;
+  color : black; 
+  transition : 0.7s ease;
+}
+a:hover {
+  border-radius: 10px;
+  color: purple;
+  transform : scale(1.1);
+}
+
+@media screen and (max-width:480px){
+  #all-my-exper{
+    margin-top:80px;
+  }
+  #all-my-exper h4 {
+  padding-left:170px;
+ }
+ #my-exper1, #my-exper2, #my-exper3{
+  margin:10px;
+  margin-left:130px;
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+ }
+}
