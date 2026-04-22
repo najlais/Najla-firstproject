@@ -139,7 +139,7 @@ text-decoration-color : darkblue;
 }
 #myskills{
   width: 100%;
-  height : 250px;
+  height : 20px;
   display : flex;
   flex-direction : row;
   flex-wrap : wrap; 
@@ -161,6 +161,7 @@ text-decoration-color : darkblue;
   margin-top:-130px;
   margin-right:110px;
   margin-left:15px;
+  align-items :center;
   gap: 30px;      
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4
@@ -195,7 +196,6 @@ footer #icon{
   direction:rtl;
   display : flex;
   flex-direction : row;
-  flex-wrap : wrap; 
   padding :10px 50px;
   margin :10px 140px;
 }
