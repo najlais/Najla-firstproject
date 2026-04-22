@@ -13,6 +13,7 @@ h4{
   margin-top: 65px;
   margin-left:250px;
   border-radius:15px;
+  direction :rtl ;
 }
 .contact-me{
   direction: rtl;
@@ -34,7 +35,7 @@ h4{
   text-align : center; 
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #F5EBE0, #E8D8C3);
+  background: linear-gradient(to left, #D9C6A5);
   z-index: 1000;
   top: 0;
   border-radius : 10px;

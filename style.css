@@ -10,6 +10,11 @@ h2{
   text-transform: uppercase;
   padding-left :10px;
 }
+body {
+  max-width: 1100px;
+  margin: auto;
+}
+
 
 #bare {
   display : flex;
