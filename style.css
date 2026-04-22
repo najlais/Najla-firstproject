@@ -67,7 +67,7 @@ a:hover {
 }
 #Mainsection{  
     width: 100%;
-    height: 300px;
+    height: 230px;
     color: black;
     background-color : white;
     background-size: cover;
@@ -76,7 +76,9 @@ a:hover {
     background-repeat: no-repeat;
     position: relative;
     border : #EFE1E1 solid 1px;
-    margin-top :10px;
+    margin-top :5%;
+    display:flex;
+    flex-direction: row ;
 }
 #myimg{
   background-image: url("https://img.freepik.com/premium-vector/,faceless-business-woman-vector_844724-14350.jpg");
@@ -91,10 +93,9 @@ a:hover {
 #MainsectionFont{
   font-size : 15px;
   color : black;
-  top : 10px;  
-  margin-bottom : 5px;
-  padding : 10px 95px 15px 30px ;
   text-align : center;
+  margin-left:200px;
+  margin-top:0%;
 }
 #Mainsection h3{
     color:#C97C5D;
@@ -250,6 +251,9 @@ p {
   #Mainsection{
     height: 100%;
     width:100%;
+  }
+  #MainsectionFont{
+    margin-left:40px;
   }
   #myimg{
   width:150px;
