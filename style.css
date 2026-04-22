@@ -84,7 +84,7 @@ a:hover {
   height: 200px;
   background-size: cover;
   position: absolute;   
-  top: 10px;        
+  top:10%;
   right:100px;
   z-index: 2;
 }
@@ -113,6 +113,9 @@ text-decoration-color : darkblue;
     background-color:#a65f45;
     transform: scale(1.1);
 }
+#Mainn{
+  padding :5%;
+}
 #aboutme2{
   width: 100%;
   height: 100%;
@@ -123,12 +126,11 @@ text-decoration-color : darkblue;
   text-align: center;
 }
 #aboutme2 h4{
-  align-items:center;
-  padding-left: 390px;
+ text-align: center;
 }
 #aboutme2img{
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   display: :felx;
   flex-direction: column;
   align-items: center;
