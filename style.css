@@ -132,14 +132,14 @@ text-decoration-color : darkblue;
 #aboutme2img{
   width:200px;
   height:200px;
-  display: :felx;
+  display:felx;
   flex-direction: column;
   align-items: center;
   margin-left: 40%;
 }
 #myskills{
   width: 100%;
-  height : 20px;
+  height : 200px;
   display : flex;
   flex-direction : row;
   flex-wrap : wrap; 
@@ -158,11 +158,11 @@ text-decoration-color : darkblue;
 }
 #allmyskills{
   display: flex;
-  margin-top:-130px;
   margin-right:110px;
   margin-left:15px;
   align-items :center;
-  gap: 30px;      
+  margin-top:-150px;
+  gap :40px;
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4
 {
@@ -288,6 +288,7 @@ p {
   margin-right:10px;
   margin-left: 15px;
   margin-bottom:15px;
+  gap:30px;
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4{
     width:70px;
@@ -324,7 +325,7 @@ p {
   padding:-110px;
   margin:-120px;
   width:70px;
-  justify-content: center;
+ 
   margin-top:-90px;
   }
   #emailiconimg,
