@@ -151,19 +151,18 @@ text-decoration-color : darkblue;
   font-size: 8px;
 }
 #myskills h4 {
+  text-align: center;
   display: flex;
   justify-content: center;
   padding-top:-60px;
-  padding-right:350px;
+  padding-left:300px;
 }
 #allmyskills{
   display: flex;
-  margin-right:110px;
-  margin-left:15px;
+  margin-right:-390px;
   align-items :center;
-  margin-top:-130px;
-  flex-direction: row;
-  flex-wrap : wrap;
+  margin-top:20px;
+  
   gap :40px;
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4
@@ -283,7 +282,7 @@ p {
     width: 100%;
   }
   #myskills h4{
-    padding-right:15px;
+    padding-left:350px;
   }
   #allmyskills {
   margin-top:-70px;
