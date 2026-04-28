@@ -55,7 +55,6 @@ a:hover {
   width:600px;
   height:100%;
   margin-left:20%;
-  
   animation:slide 12s infinite;
 }
 
@@ -90,13 +89,13 @@ a:hover {
   top:10%;
   right:100px;
   z-index: 2;
-  margin-right:70px;
+  margin-right:100px;
 }
 #MainsectionFont{
   font-size : 15px;
   color : black;
   text-align : center;
-  margin-left:250px;
+  margin-left:300px;
   margin-top:0%;
 }
 #Mainsection h3{
