@@ -153,6 +153,7 @@ text-decoration-color : darkblue;
   font-size: 8px;
 }
 #myskills h4 {
+  text-align: center;
   padding-top:-60px;
   padding-right:350px;
   font-size:15px;
@@ -284,7 +285,8 @@ p {
   }
   #myskills h4{
     direction: rtl;
-    padding-right:20px;
+    text-align: : none ;
+    padding-right:-50px;
   }
   #allmyskills {
   margin-top:-50px;
