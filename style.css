@@ -234,12 +234,10 @@ height:20px;
    font-size:10px;
    padding-left:130px;
  }
-@media screen and (max-width:480px){
+@media screen and (min-width:1025px) and (max-width:1440px);{
 
-  
-
-  #Mainsection{
-    
+  #Mainsection img {
+    margin-left: 100px ;
   }
   #MainsectionFont{
 
