@@ -3,31 +3,35 @@ html{
   height: 100%;
   width: 100%;
   background-color : white;
+  margin :0;
 }
-h2{
+#firstsection h2{
   color: black;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding-left :10px;
+  font-size: 15px;
+  padding-left:8px;
+   color: #6624A0;
 }
 
 #bare {
   display : flex;
-  justify-content: space-between;
-  margin-right :10px;
+  margin-left: auto;
+  padding-right:10px;
 }
 #firstsection {
-  height : 50px;
-  display : flex;
+  height : 40px;
+  display :flex;
   justify-content : space-between;
   text-align : center; 
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #D9C6A5);
+  background-color: white;
   z-index: 1000;
-  top: 0;
-  border-radius : 10px;
-  margin-left :-10px;
+  top:8px;
+  left:8px;
+  border-radius: 10px;
+  font-size:10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  right: 8px;
 }
 
 a{
@@ -42,112 +46,103 @@ a:hover {
   color: purple;
   transform : scale(1.1);
 }
-#slider{
-  width:500px;
-  height:250px;
-  margin-top:60px;
-  margin-right:-150px;
-  overflow:hidden;
-}
-
-#slides{
-  display:flex;
-  width:600px;
-  height:100%;
-  margin-left:20%;
-  animation:slide 12s infinite;
-}
-
-#slides img{
-  width:200px;
-  height:250px;
-  flex:0 0 100%;
- object-fit: cover;
-}
 #Mainsection{  
-    width: 100%;
-    height: 230px;
+    height: 100%;
+    width:100%;
     color: black;
-    background-color : white;
+    background-color :hsl(270, 100%,98%);
     background-size: cover;
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    border : #EFE1E1 solid 1px;
-    margin-top :5%;
+    margin-top :10%;
     display:flex;
     flex-direction: row ;
-
+    padding-bottom:15px;
 }
 #myimg{
-  background-image: url("https://img.freepik.com/premium-vector/,faceless-business-woman-vector_844724-14350.jpg");
-  width: 200px;
-  height: 200px;
+  background-image: url("IMG_1821.jpeg");
   background-size: cover;
   position: absolute;   
-  top:10%;
-  right:100px;
+  top:20%;
+  left:250px;
   z-index: 2;
-  margin-right:100px;
+  width:150px;
+  height : 150px;
+  margin-right:-100px;
 }
 #MainsectionFont{
   font-size : 15px;
   color : black;
-  text-align : center;
-  margin-left:300px;
+  padding-left:30px;
   margin-top:0%;
 }
 #Mainsection h3{
-    color:#C97C5D;
+    color:#6624A0;
+}
+#Mainsection h2{
+  color :black;
+  font-size: 15px;
+}
+#MainsectionFont p{
+  font-size:10px;
+  padding-right:180px;
 }
 h5{
-text-decoration: underline;
 text-decoration-color : darkblue;
 }
 #contact{
-  background-color: #EFE1E1;
+  background-color: #E1BEE7;
   color : black;
   border-radius : 10px;
   transition :0.7s ease;
 }
 #contact:hover{
-    background-color:#a65f45;
+    background-color:#E1BEE7;
     transform: scale(1.1);
 }
 #Mainn{
   padding :5%;
 }
+
 #aboutme2{
-  width: 100%;
-  height: 100%;
   background-color : white;
-}
-#aboutme2 p{
-  direction:rtl;
-  text-align: center;
-  font-size:15px;
+  height: 100%;
+  width: 100%;
+  
 }
 #aboutme2 h4{
  text-align: center;
- font-size:15px;
+ font-size:12px;
+ text-decoration: underline;
+ text-underline-offset: 10px;
+ padding-bottom:20px;
+ padding-right:20px;
+ color: #6624A0;
+}
+
+#aboutme2 p{
+  direction:rtl;
+  font-size:13px;
+  padding-left:210px;
+  padding-right:30px;
 }
 #aboutme2img{
   width:200px;
-  height:200px;
-  display:felx;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 40%;
+  height:130px;
+  padding-right:150px;
+  margin-top:-150px;
 }
+
 #myskills{
+  height: 170px;
   width: 100%;
-  height : 200px;
   display : flex;
   flex-direction : column;
   flex-wrap : wrap; 
   direction:rtl;
-  border: #EFE1E1 solid 1px;
+  background-color: hsl(270, 100%,98%);
   border-radius : 10px;
 }
 #myskills h3{
@@ -155,30 +150,35 @@ text-decoration-color : darkblue;
 }
 #myskills h4 {
   padding-top:-60px;
-  padding-right:350px;
-  font-size:15px;
+  font-size:12px;
+  color: #6624A0;
+  text-align:center;
+  text-decoration:underline;
+  text-underline-offset:10px;
+  padding-bottom:20px;
+  padding-right:20px;
 }
 
 #allmyskills{
   display: flex;
-  margin-left:200px;
-  margin-right:-300px;
   align-items :center;
-  margin-top:20px;
-  gap :40px;
+  margin-top:-80px;
+  margin-right:10px;
+  margin-left:15px;
+  margin-bottom:15px;
+  position:relative;
+  gap:15px;
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4
 {
-  width :120px;
-  height :80px;
+  width:85px;
+  height:90px;
   background-color : white;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
   border: #EFE1E1 solid 1px;
   border-radius : 10px;
   text-align: center;
   margin-top:60px;
- 
- 
   }
 #myskills1img ,#myskills2img ,#myskills3img, #myskills4img {
   width :  50px;
@@ -187,158 +187,106 @@ text-decoration-color : darkblue;
 }
 
 footer{
+  width:100%;
+  height: 150px;
   margin-top : 10px;
-  width :100%;
-  height : 110px;
-  background-color : #EFE1E1;
+  background-color : white;
   font-size : 10px;
   text-align : center;
   border-radius:10px;
 }
+footer h3{
+  font-size:12px;
+  color:#6624A0;
+  text-decoration:underline;
+  text-underline-offset: 10px;
+}
 footer #icon{
-  direction:rtl;
-  display : flex;
-  flex-direction : row;
-  padding :10px 50px;
-  margin :10px 160px;
+  direction:ltr;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top:30px;
+  margin-left:40px;
+  width:90px;
 }
+
 footer img {
-  width :15px;
-  height : 15px;
+  width:20px;
+height:20px;
 }
-#emaili{
-  padding :25px;
-}
-#numi{
-  padding :25px;
-}
-#locationi{
-  padding :20px;
-}
-p {
-  margin-bottom:30px;;
-}
-
-@keyframes slide{
-
-  0%{transform:translateX(0);}
-  30%{transform:translateX(0);}
-
-  33%{transform:translateX(-100%);}
-  63%{transform:translateX(-100%);}
-
-  66%{transform:translateX(-200%);}
-  96%{transform:translateX(-200%);}
-
-  100%{transform:translateX(0);}
-}
+  #emaili,
+  #numi,
+  #locationi {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 150px;
+    padding-bottom:10px;
+  }
+  #icon img{
+    width:30px;
+    height:30px;
+  }
+  #copyright{
+   background-color:#6A1B9A;
+   color: white;
+   font-size:10px;
+   padding-left:130px;
+ }
 @media screen and (max-width:480px){
 
-  #slider{
-    width :200px;
-    max-width:420px;
-    height:150px;
-    margin-left:120px;
-  }
-  #slides{
-      width : 200px;
-      height :180px;
-      align-items: center;
-  }
-  #slides img{
-    height:150px;
-    width :150px;
-    border-radius:10px; 
-  }
+  
 
   #Mainsection{
-    height: 100%;
-    width:100%;
+    
   }
   #MainsectionFont{
-    margin-left:40px;
+
   }
   #myimg{
-  width:150px;
-  height : 150px;
-  margin-right:-100px;
+  
   }
   #aboutme2{
-  height: 100%;
-  width: 100%;
-  text-align:center;
+  
  
   }
   #aboutme2 h4{
-    padding-left :350px;
+    
    }
   #aboutme2 p{
-    margin:10px;
+    
   }
   #aboutme2img{
-    margin:auto;
-    display:block;
+    
   } 
   #myskills{
-    height: 200px;
-    width: 100%;
+    
   }
   #myskills h4{
-    direction: rtl;
-   
-    padding-right:20px;
+    
   }
   #allmyskills {
-  margin-top:-50px;
-  margin-right:10px;
-  margin-left: 15px;
-  margin-bottom:15px;
-  gap:30px;
+  
 }
 #myskills1 ,#myskills2 ,#myskills3 ,#myskills4{
-    width:70px;
-    height: 90px;
+    
  
   }
  
   footer{
-    width:100%;
-    height: 150px;
+    
   }
   footer h3{
-  width:150px;
-  font-weight: 80px;
-  padding-left :270px;
-  padding-top:20px;
+  
   }
   #icon{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width:90px;
-  flex-direction: row;
-  flex-wrap :wrap;
-  padding-right:40px;
-  margin-top:40px;
+  
   }
-  #emaili,
-  #numi,
-  #locationi{
-  display:flex;
-  flex-direction: row;
-  flex-wrap :wrap;
-  align-items:center;
-  gap:8px;
-  padding:-110px;
-  margin:-120px;
-  width:70px;
- 
-  margin-top:-90px;
-  }
+
   #emailiconimg,
   #numiconimg,
   #locationiconimg{
-  width:20px;
-  height:20px;
+  
   }
   }

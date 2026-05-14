@@ -1,45 +1,49 @@
 html{
-  background : #E6D6D6;
+  height: 100%;
+width: 100%;
+background-color : white;
+margin :0;
 }
-h4{
-  margin-left:350px;
+#cont-box h4{
+  margin-left:40px;
+  color:#6624A0;
+  text-decoration: underline;
+  text-underline-offset: 10px;
   font-size: 15px;
-}
-#contact-box{
-  background-color : white;
-  opacity:0,7;
-  width:300px;
-  height:100px;
-  margin-top: 65px;
-  margin-left:250px;
-  border-radius:15px;
-  direction :rtl ;
 }
 .contact-me{
   direction: rtl;
   text-align: center;
   padding-top:10px;
-  
 }
 
+#firstsection h2{
+  color: black;
+  font-size: 15px;
+  padding-left:8px;
+   color: #6624A0;
+}
 
 #bare {
   display : flex;
-  justify-content: space-between;
-  margin-right :10px;
+  margin-left: auto;
+  padding-right:10px;
 }
 #firstsection {
-  height : 50px;
-  display : flex;
+  height : 40px;
+  display :flex;
   justify-content : space-between;
   text-align : center; 
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #D9C6A5);
+  background-color: white;
   z-index: 1000;
-  top: 0;
-  border-radius : 10px;
-  margin-left :-10px;
+  top:8px;
+  left:8px;
+  border-radius: 10px;
+  font-size:10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  right: 8px;
 }
 
 a{
@@ -54,13 +58,68 @@ a:hover {
   color: purple;
   transform : scale(1.1);
 }
-
+#cont{
+  display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ background-color: hsl(270, 100% ,99%);
+ margin-top: 60px;
+ width: 100%;
+ height: 200px;
+}
+#cont h2{
+  color: #6624A0;
+  font-size:13px;
+  margin-left:70px;
+  margin-top:50px;
+}
+#cont h4{
+  margin-left:40px;
+  font-size: 10px;
+  direction:rtl;
+  text-align: center;
+}
+#cont div{
+  margin-right:15px;
+  display: flex;
+  flex-direction: column;
+}
+#cont img{
+  width: 130px;
+  height: 130px;
+  margin-top:20px;
+  margin-left:60px;
+}
+#cont-box{
+  width:200px;
+  height:300px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,0.15) ;
+  margin-left:90px;
+  margin-top:35px;
+}
+#contact-box img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:40px;
+  height:40px;
+  margin-right:150px;
+  margin-top:-40px;
+}
+#contact-box h5{
+  font-size:8px;
+}
+  #copyright {
+    background-color: #6A1B9A;
+    color: white;
+    font-size: 10px;
+    padding-left: 130px;
+    margin-top:170px;
+  }
 @media screen and (max-width :480px){
   h4{
-    margin-left: 170px;
-    margin-top:140px;
   }
   #contact-box{
-   margin-left:60px;
+   
   }
 }

@@ -1,23 +1,30 @@
-html{
-  background-color: #E6D6D6;
+#firstsection h2{
+  color: black;
+  font-size: 15px;
+  padding-left:8px;
+   color: #6624A0;
 }
+
 #bare {
   display : flex;
-  justify-content: space-between;
-  margin-right :10px;
+  margin-left: auto;
+  padding-right:10px;
 }
 #firstsection {
-  height : 50px;
-  display : flex;
+  height : 40px;
+  display :flex;
   justify-content : space-between;
   text-align : center; 
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #D9C6A5);
+  background-color: white;
   z-index: 1000;
-  top: 0;
-  border-radius : 10px;
-  margin-left :-10px;
+  top:8px;
+  left:8px;
+  border-radius: 10px;
+  font-size:10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  right: 8px;
 }
 
 a{
@@ -32,29 +39,122 @@ a:hover {
   color: purple;
   transform : scale(1.1);
 }
-
-#me-page {
-  background-color:#FFFFFF;
-  opacity:0.7;
-  width:300px;
-  height :200px;
-  padding: 20px;
-  margin-left :230px;
-  margin-top:500%;
-  border-radius:20px;
-  font-family :fantasy;
+#aboutme2{
+  background-color : hsl(270, 100%, 98%);
+  height: 100%;
+  width: 100%;
+  margin-top:70px;
 }
-  #me-page h4{
-    text-align:center;
-  }
+#aboutme2 h4{
+ text-align: center;
+ font-size:12px;
+ text-decoration: underline;
+ text-underline-offset: 10px;
+ padding-bottom:20px;
+ padding-right:20px;
+ color: #6624A0;
+}
+#aboutme2 p img{
   
- #me-page p{
-   text-align: center;
- }
+}
+#aboutme2 p{
+  direction:rtl;
+  font-size:13px;
+  padding-left:210px;
+  padding-right:30px;
+  
+}
+#aboutme2img{
+  width:150px;
+  height:130px;
+  padding-right:150px;
+  margin-top:-250px;
+  margin-left:20px;
+}
+#my-way{
+  display:flex;
+  flex-direction: row;
+  padding-top:45px;
+  margin-left:20px;
+}
+#myway1{
+  padding-right:20px;
+  margin-left:200px;
+  font-size:15px;
+  color: #6624A0;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+  height:250px;
+  width:160px;
+  text-align:center;
+  line-height:30px;
+}
+ul{
+  list-style:none;
+  font-size:11px;
+  padding-right:30px;
+
+}
+#myway2{
+padding-right:20px;
+margin-left:20px;
+margin-top:-250px;
+font-size:15px;
+color: #6624A0;
+box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+height:233px;
+width:160px;
+text-align:center;
+line-height:30px;
+}
+ #copyright {
+    background-color: #6A1B9A;
+    color: white;
+    font-size: 10px;
+    padding-left: 130px;
+    margin-top:50px;
+  }
+  #aboutmee{
+    margin-top:20px;
+    width:100%;
+    height:150px;
+    display:flex;
+    flex-direction:row;
+    background-color: hsl(270, 100%, 98%);
+  }
+  #all-about-me{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left:100px;
+    margin-top:40px;
+    gap:10px;
+  }
+  #aboutmee img{
+    width:20px;
+    height:20px;
+    margin-left:25px;
+    margin-bottom:-10px;
+  }
+  #aboutmee h4{
+    font-size: 10px;
+    text-align: center;
+  }
+  #aboutmee div{
+    border:#F3E5F5 solid 1px;
+   border-radius: 10px;
+   height:70px;
+   background-color:white;
+  }
+  #section1{
+    width:70px;
+  }
+  #section2{
+    width:60px;
+  }
+  #section3{
+  width:70px;
+  }
+
 @media screen and (max-width:480px){
-  
-  #me-page{
-   margin-left:40px;
-   margin-top:250px;
-  }
+ 
 }

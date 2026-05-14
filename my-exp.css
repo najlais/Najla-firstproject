@@ -1,47 +1,114 @@
 html {
-  background-color: #E6D6D6;
-}
-
-#my-exper h3{
-  font-size:15px;
-  text-align: center;
+  background-color: white;
 }
 #my-exper img {
-  width :70px;
-  height :70px;
+  width :50px;
+  height :50px;
   display: flex;
   align-items: center;
-  margin-left:35px;
+  margin-left:10px;
   margin-top:15px;
 }
 #my-exper1, #my-exper2, #my-exper3{
   background-color: white;
-  width: 140px;
-  margin:10px;
-  margin-left:100px;
-  display:inline-block;
-  border-radius: 15px;
 }
+#my-exper1{
+  margin-left:210px;
+  margin-bottom:15px;
+  width:200px;
+  height:90px;
+  padding-top:3px;
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+#my-exper1 h3{
+  font-size:10px;
+  margin-top:20px;
+  direction: rtl;
+  margin-left:50px;
+}
+ #my-exper2{
+   margin-right:230px;
+   margin-bottom:15px;
+width:210px;
+height:90px;
+padding-top:3px;
+display : flex;
+flex-direction : row;
+flex-wrap : wrap;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+ }
+ #my-exper2 h3{
+   font-size:10px;
+   margin-top:-50px;
+   margin-left:90px;
+ }
+ #my-exper p{
+   direction: rtl;
+   font-size:12px;
+   margin-top:-20px;
+   margin-right:10px;
+   margin-left:40px;
+ }
+ #my-exper3{
+   margin-left:210px;
+   margin-bottom:15px;
+width:200px;
+height:100px;
+padding-top:3px;
+display : flex;
+flex-direction : row;
+flex-wrap : wrap;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+ }
+ #my-exper3 h3{
+   font-size:10px;
+direction: rtl;
+margin-left:90px;
+margin-top:-45px;
+ }
 #all-my-exper h4{
-  padding-left:350px;
+  font-size:12px;
+  color: #6624A0;
+  text-decoration: underline;
+  text-underline-offset:10px;
+  text-align: center;
+  padding-top:10px;
 }
+#all-my-exper{
+  margin-top:50px;
+  background-color: hsl(270,100%, 98%);
+  height:400px;
+}
+#firstsection h2{
+  color: black;
+  font-size: 11px;
+  padding-left:8px;
+  color: #6624A0;
+}
+
 #bare {
   display : flex;
-  justify-content: space-between;
-  margin-right :10px;
+  margin-left: auto;
+  padding-right:10px;
 }
 #firstsection {
-  height : 50px;
-  display : flex;
+  height : 40px;
+  display :flex;
   justify-content : space-between;
   text-align : center; 
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #D9C6A5);
+  background-color: white;
   z-index: 1000;
-  top: 0;
-  border-radius : 10px;
-  margin-left :-10px;
+  top:8px;
+  left:8px;
+  border-radius: 10px;
+  font-size:10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  right: 8px;
 }
 
 a{
@@ -56,7 +123,101 @@ a:hover {
   color: purple;
   transform : scale(1.1);
 }
+#lang h4{
+  font-size:12px;
+color: #6624A0;
+text-decoration: underline;
+text-underline-offset:10px;
+text-align: center;
+padding-top:10px;
+}
+#lang img{
+  width:60px;
+  height:45px;
+  padding-left:50px;
+}
+#lang div{
+  margin-left:30px;
+}
+#my-certficate{
+  margin-top:-15px;
+  background-color: hsl(270, 100%, 98%);
+  height:190px;
+}
+#my-certficate h5{
+  padding-top:20px;
+  padding-left:150px;
+  font-size:15px;
+  font-weight: 2px;
+  color: #6624A0;
+  text-decoration: underline;
+  text-underline-offset:10px;
+}
+#all-my-certficate{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  gap:6px;
+  margin-left:10px;
+  margin-top:50px;
+}
+#all-my-certficate #ISE h3{
+  font-size:8px;
+margin-right:5px;
+  margin-top:-5px;
+}
+#all-my-certficate #ISE h4{
+  font-size:8px;
+  margin-right:5px;
+}
+#all-my-certficate #Front h3{
+  font-size:8px;
+  padding-right:20px;
+  margin-top:0px;
 
+}
+#all-my-certficate #Front h4{
+  font-size:8px;
+  padding-right:20px;
+
+}
+#all-my-certficate #Back h3{
+  font-size:8px;
+  padding-right:20px;
+  margin-top:0px;
+}
+#all-my-certficate #Back h4{
+  font-size:8px;
+  padding-right:20px;
+ 
+}
+#all-my-certficate h4{
+  color:#6624A0;
+}
+#all-my-certficate img{
+  width:30px;
+  height:30px;
+  margin-bottom:-40px;
+  margin-left:10px;
+}
+
+#all-my-certficate div{
+  width:130px;
+  height:70px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  margin-top:-15px;
+}
+#all-my-certficate h3, h4{
+  direction: rtl;
+}
+ #copyright {
+   background-color: #6A1B9A;
+   color: white;
+   font-size: 10px;
+   padding-left: 130px;
+   margin-top:10px;
 @media screen and (max-width:480px){
   #all-my-exper{
     margin-top:80px;
@@ -65,10 +226,5 @@ a:hover {
   padding-left:170px;
  }
  #my-exper1, #my-exper2, #my-exper3{
-  margin:10px;
-  margin-left:130px;
-  display : flex;
-  flex-direction : row;
-  flex-wrap : wrap;
  }
 }
