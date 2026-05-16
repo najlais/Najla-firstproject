@@ -236,14 +236,14 @@ height:20px;
  }
 @media screen and (min-width:1200px) and (max-width:1920px);{
 
-  #Mainsection img {
-    margin-left: 5000px ;
+  #Mainsection{
+    margin-top:25px;
   }
   #MainsectionFont{
 
   }
   #myimg{
-  
+  margin-right: 500px ;
   }
   #aboutme2{
   
