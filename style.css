@@ -234,7 +234,7 @@ height:20px;
    font-size:10px;
    padding-left:130px;
  }
-@media screen and (min-width:1025px) and (max-width:1440px);{
+@media screen and (min-width:1024px) and (max-width:600px);{
 
   #Mainsection img {
     margin-left: 5000px ;
