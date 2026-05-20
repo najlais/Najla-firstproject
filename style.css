@@ -234,8 +234,7 @@ height:20px;
    font-size:10px;
    padding-left:130px;
  }
-@media screen and (min-width:1200px) and (max-width:1920px);{
-
+@media screen and (min-width:1200px) and (max-width:1920px){
   #Mainsection{
     margin-top:25px;
   }
@@ -287,4 +286,4 @@ height:20px;
   #locationiconimg{
   
   }
-  }
+}
